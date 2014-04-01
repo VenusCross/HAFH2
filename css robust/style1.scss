@@ -1,0 +1,26 @@
+$thefirstColor: #ccc;
+$thenextColor:purple;
+
+
+body{
+	background-color: $thefirstColor;
+	color: $thenextColor;
+
+}
+p{ width: 10in +15pt;
+}
+
+@mixin border-radius($radius){
+-webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}       
+.fakeparagraph{@include border-radius(5px);}
+
+.fakeparagraph {
+  border: 5px solid #ccc;
+  padding: 10px;
+  color: #333;
+}

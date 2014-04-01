@@ -1,0 +1,19 @@
+body {
+  background-color: #cccccc;
+  color: purple;
+}
+
+p {
+  width: 10in +15pt;
+}
+
+.fakeparagraph {
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.fakeparagraph {
+  border: 5px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
